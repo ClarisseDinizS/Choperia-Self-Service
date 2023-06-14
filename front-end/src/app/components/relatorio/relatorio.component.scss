@@ -1,0 +1,50 @@
+
+.container{
+  width: 70%;
+  margin: 1rem auto;
+
+}
+.half-container{
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title h1{
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+button {
+  flex: 1 0 30%; /* Distribui os botões em três colunas, cada uma com 30% da largura do contêiner */
+  margin: 20px;
+  color: #01a86c;
+}
+
+.botoes{
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+table {
+  width: 100%;
+}
+
+.material-icons.icone-excluir{
+  color: indianred;
+}
+
+.material-icons.icone-editar{
+  color: #0B2641;
+}

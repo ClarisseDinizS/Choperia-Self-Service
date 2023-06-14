@@ -1,0 +1,67 @@
+
+.container{
+  width: 70%;
+  margin: 1rem auto;
+
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  vertical-align: top;
+}
+
+.espacamento{
+  margin-left: 10px;
+}
+button{
+  margin: 2px;
+}
+
+
+.title{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.title h1{
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+.InputCpf{
+  width: 500px;
+}
+
+
+.campoCartaoRfid{
+  width: 30%;
+}
+
+.button {
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+.toolbar-itens{
+  font-size: 1rem;
+}
+
+
+.material-icons.icone-excluir{
+  color: indianred;
+}
+
+.material-icons.icone-editar{
+  color: #0B2641;
+}

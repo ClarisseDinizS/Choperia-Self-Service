@@ -1,0 +1,39 @@
+<div class="container">
+
+  <div class="title">
+    <h1>Saída Clientes</h1>
+  </div>
+
+  <form [formGroup]="form">
+    <mat-form-field appearance="fill" class="InputCpf">
+      <mat-label>RFID</mat-label>
+      <input matInput
+             formControlName="rfid"
+             name="rfid"
+             id="rfidInput"
+             [minlength]="10"
+             [maxlength]="10"
+             (change)="findClienteByRfid($event)">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Nome</mat-label>
+      <input matInput
+             formControlName="nome"
+             name="nome"
+             id="nome">
+    </mat-form-field>
+  </form>
+
+  <mat-card-actions>
+    <button class="" (click)="cancelar()" style="background-color: #676363; margin-top: 1rem" mat-raised-button>
+      Cencelar
+    </button>
+
+    <button class="espacamento" [disabled]="formValid()" (click)="finalizarSaidaCliente()" style="background-color: #01a86c; margin-top: 1rem" mat-raised-button>
+      Finalizar Saída
+    </button>
+
+  </mat-card-actions>
+
+</div>
